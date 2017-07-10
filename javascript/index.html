@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Kohonen network</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="content"></div>
+        Коэффициент обучения = <input id="ratio" type="number" value="0.4" max="1" min="0" step="0.01">.
+        <br>Итерация - Евклидово расстояние = <span id="euclid-result"></span>.
+        <br>Итерация - Угловое расстояние = <span id="angle-result"></span>.
+        <script src="app/vendor/jquery-3.1.1.min.js"></script>
+        <script src="app/vendor/plotly-latest.min.js"></script>
+        <script src="app/source/data.js"></script>
+        <script src="app/libraries/plot.js"></script>
+        <script src="app/libraries/euclid.js"></script>
+        <script src="app/libraries/matrix.js"></script>
+        <script src="app/libraries/vector.js"></script>
+        <script src="app/libraries/kohonen.js"></script>
+        <script src="app/app.js"></script>
+    </body>
+</html>
